@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "icon": "🖼️",
+        "title": "DevLens",
+        "description": "Quickly inspect page layouts and visualize element boundaries.",
+        "status": true
+    },
+    {
+        "id": 2,
+        "icon": "🎯",
+        "title": "StyleSpy",
+        "description": "Instantly analyze and copy CSS from any webpage element.",
+        "status": true
+    },
+    {
+        "id": 3,
+        "icon": "⚡",
+        "title": "SpeedBoost",
+        "description": "Optimizes browser resource usage to accelerate page loading.",
+        "status": false
+    },
+    {
+        "id": 4,
+        "icon": "🔒",
+        "title": "SecureX",
+        "description": "Protect your browsing data and block suspicious scripts.",
+        "status": true
+    },
+    {
+        "id": 5,
+        "icon": "📦",
+        "title": "PackStack",
+        "description": "Easily manage downloads and organize your browser files.",
+        "status": false
+    },
+    {
+        "id": 6,
+        "icon": "📅",
+        "title": "TimeWise",
+        "description": "Track screen time and reduce distractions while working.",
+        "status": true
+    },
+    {
+        "id": 7,
+        "icon": "🧠",
+        "title": "Thinkr",
+        "description": "AI-powered tool for summarizing articles and news feeds.",
+        "status": true
+    },
+    {
+        "id": 8,
+        "icon": "🛠️",
+        "title": "Fixify",
+        "description": "Auto-detects and fixes layout bugs in developer view.",
+        "status": false
+    },
+    {
+        "id": 9,
+        "icon": "🗂️",
+        "title": "TabSort",
+        "description": "Organize open tabs using categories and color codes.",
+        "status": true
+    }
+]
