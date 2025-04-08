@@ -8,15 +8,33 @@ function ExtensionsList() {
     const [extensionsList, setExtensionsList] = useState();
     const [filterData, setFilterData] = useState();
 
+    let extensionData;
+
+    if (filterData) {
+        extensionData = filterData;
+    } else {
+        extensionData = extensionsList;
+
+    }
+
     useEffect(() => {
         if (Data) {
             setExtensionsList(Data);
         }
     }, []);
 
+    useEffect(() => {
+        if (filterData) {
+            let status = filterData[0]['status'];
+
+            setFilterData(extensionsList.filter((item) => item.status == status));
+        }
+    }, [extensionsList]);
+
 
     // Handle the Switch functionality
     const handleStatusChange = (id, event) => {
+        console.log('here');
         let status = event.target.checked;
         setExtensionsList(listItem =>
             listItem.map(item =>
@@ -48,15 +66,13 @@ function ExtensionsList() {
     return (
         <>
             <Filters handleFilter={handleFilter} />
-            <div className="extensions-grid">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
 
-                {filterData && filterData.map(item => (
+                {/* Todo - Use once   */}
+                {extensionData && extensionData.map(item => (
                     <Card key={item.id} extensionsItem={item} handleStatusChange={handleStatusChange} handleRemoveList={handleRemoveList} />
                 ))}
 
-                {!filterData && extensionsList && extensionsList.map(item => (
-                    <Card key={item.id} extensionsItem={item} handleStatusChange={handleStatusChange} handleRemoveList={handleRemoveList} />
-                ))}
             </div>
         </>
     );
