@@ -4,7 +4,7 @@ import { Link } from "react-router";
 function Header(props) {
 
     return (
-        <header className="flex justify-between items-center bg-dark text-white border border-borderdark rounded-xl p-6 group-[.app]/light:bg-white group-[.app]/light:border-borderlight ">
+        <header className="flex justify-between items-center bg-dark text-white border border-borderdark rounded-xl p-6 group-[.app]/light:bg-borderlight group-[.app]/light:border-borderlight ">
             <div className="text-[1.4rem] font-semibold group-[.app]/light:text-black"><Link to={"/"}>🔴 Extensions</Link></div>
             <div className="toggle-mode group-[.app]/light:text-black" >
                 <button
