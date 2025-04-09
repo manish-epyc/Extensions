@@ -8,15 +8,16 @@ function ExtensionDetails(props) {
 
     const params = useParams();
 
+    console.log(params.eid)
 
-    useEffect(() => {
+
+
         if (params.eid && props.extensionData) {
             extensionDetails = props.extensionData.filter(item => item.id == params.eid)
         } else {
             navigate('/');
         }
 
-    }, [params.eid])
 
 
 
