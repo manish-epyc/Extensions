@@ -4,62 +4,116 @@
         "icon": "🖼️",
         "title": "DevLens",
         "description": "Quickly inspect page layouts and visualize element boundaries.",
-        "status": true
+        "status": true,
+        "content": [
+            "DevLens is a developer-first tool designed to reduce the time it takes to debug layout inconsistencies. Whether you're inspecting grids or flexbox behaviors, it offers real-time overlays right on your active web page.",
+            "Many frontend engineers waste hours toggling between devtools tabs. DevLens removes that friction. The extension floats non-intrusively and can be activated with a simple keyboard shortcut.",
+            "From visualizing padding/margins to highlighting overflow issues, DevLens is like a highlighter for your CSS structure—making debugging faster, cleaner, and more intuitive."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 2,
         "icon": "🎯",
         "title": "StyleSpy",
         "description": "Instantly analyze and copy CSS from any webpage element.",
-        "status": true
+        "status": true,
+        "content": [
+            "StyleSpy is the perfect assistant for any designer or frontend dev. Just click on an element, and instantly see the applied CSS, stylesheets, and inheritance rules.",
+            "Gone are the days of hunting through the DOM tree or manually tracing style conflicts. StyleSpy allows quick copying and sharing of styles for pair programming or documentation.",
+            "This tool isn't just fast—it's accurate. StyleSpy captures real-time computed styles, helping you replicate or debug complex UI components with ease."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 3,
         "icon": "⚡",
         "title": "SpeedBoost",
         "description": "Optimizes browser resource usage to accelerate page loading.",
-        "status": false
+        "status": false,
+        "content": [
+            "SpeedBoost is built to keep your browser lean and your tabs snappy. It automatically suspends idle tabs and reallocates memory for active ones, ensuring your browser doesn’t crawl during critical workflows.",
+            "Whether you're coding, designing, or just multitasking with 30 tabs open, SpeedBoost ensures resources are always prioritized correctly.",
+            "It also includes a performance dashboard, helping you identify which sites hog the most memory—so you can take action or automate throttling."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 4,
         "icon": "🔒",
         "title": "SecureX",
         "description": "Protect your browsing data and block suspicious scripts.",
-        "status": true
+        "status": true,
+        "content": [
+            "SecureX is your personal bodyguard while browsing. It blocks trackers, malicious scripts, and suspicious cross-origin requests in real-time—without slowing down performance.",
+            "Security shouldn't mean sacrificing convenience. SecureX runs quietly in the background, alerting you only when action is needed.",
+            "Perfect for developers and general users alike, SecureX adds that extra shield you didn’t know you needed until it stopped something harmful."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 5,
         "icon": "📦",
         "title": "PackStack",
         "description": "Easily manage downloads and organize your browser files.",
-        "status": false
+        "status": false,
+        "content": [
+            "PackStack turns your chaotic downloads folder into an organized, searchable archive. Automatically sort files into categories like Images, Docs, Zips, and Code.",
+            "It also lets you tag downloads, making future lookups and sharing a breeze—no more 'final-final-v2.png' confusion.",
+            "Visual previews and smart cleanup rules help you reclaim storage and focus on files that matter."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 6,
         "icon": "📅",
         "title": "TimeWise",
         "description": "Track screen time and reduce distractions while working.",
-        "status": true
+        "status": true,
+        "content": [
+            "TimeWise analyzes your tab activity and gives you daily insights into your focus patterns. Whether you're a freelancer, a manager, or a student, it helps you make every minute count.",
+            "It’s like fitness tracking for your browser—see where your attention goes and gently course-correct with goals and smart reminders.",
+            "Plus, it integrates with calendar tools to suggest breaks and optimize deep work sessions."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 7,
         "icon": "🧠",
         "title": "Thinkr",
         "description": "AI-powered tool for summarizing articles and news feeds.",
-        "status": true
+        "status": true,
+        "content": [
+            "Thinkr uses AI to read articles, research papers, or long newsletters, and summarizes them into digestible takeaways within seconds.",
+            "Ideal for busy knowledge workers or casual readers, it helps you stay informed while reducing cognitive overload.",
+            "You can also save summaries, highlight key points, and export TL;DRs to tools like Notion, Google Docs, or email."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 8,
         "icon": "🛠️",
         "title": "Fixify",
         "description": "Auto-detects and fixes layout bugs in developer view.",
-        "status": false
+        "status": false,
+        "content": [
+            "Fixify detects broken layout logic like misused flex/grid containers, overflow issues, and misaligned elements across responsive breakpoints.",
+            "It automatically suggests CSS changes or shows before/after comparisons of fixed layouts in dev mode.",
+            "No more manually adjusting margins and paddings. Fixify’s AI-enhanced engine does the heavy lifting for you."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     },
     {
         "id": 9,
         "icon": "🗂️",
         "title": "TabSort",
         "description": "Organize open tabs using categories and color codes.",
-        "status": true
+        "status": true,
+        "content": [
+            "TabSort brings order to your browser chaos. With color-coded labels, smart grouping, and keyboard-based tab navigation, your workspace is always in flow.",
+            "Create project-based tab folders and instantly switch between work, research, or entertainment environments.",
+            "TabSort also includes session memory, so you can restore your exact workspace even after a crash or shutdown."
+        ],
+        "image": "https://images.ctfassets.net/kftzwdyauwt9/WynqgNZ4TBki7zVIjJIBA/adedd27d3cc4f68ed1a89fb25d62eb96/Audio_Models_wallpaper_16.9.png?w=1920&q=90&fm=webp"
     }
 ]
