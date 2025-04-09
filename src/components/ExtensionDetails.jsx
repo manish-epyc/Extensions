@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
 
 
@@ -8,13 +9,14 @@ function ExtensionDetails(props) {
     const params = useParams();
 
 
-    if (params.eid && props.extensionData) {
-        extensionDetails = props.extensionData.filter(item => item.id == params.eid)
-    } else {
-        navigate('/');
-    }
+    useEffect(() => {
+        if (params.eid && props.extensionData) {
+            extensionDetails = props.extensionData.filter(item => item.id == params.eid)
+        } else {
+            navigate('/');
+        }
 
-
+    }, [params.eid])
 
 
 
